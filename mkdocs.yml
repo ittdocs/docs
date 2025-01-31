@@ -1,9 +1,24 @@
-site_name: ITT Docs
+site_name: ITT documentation (Under development)
 site_url: https://example.com
 
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+
 theme:
+  features:
+      - navigation.footer
+      - search.highlight
+      - content.code.copy
+      - content.code.select
+      - content.footnote.tooltips
+
+
   name: material
+  locale: en
   favicon: assets/favicon.ico
+  logo: https://raw.githubusercontent.com/emadadel4/itt/refs/heads/main/static/Images/text_logo.jpg
   palette:
     # Dark Mode
     - scheme: slate
