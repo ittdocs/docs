@@ -14,7 +14,7 @@ Quick install required tools Using ITT:
 2. Open PowerShell and paste the following command:
 
 ```Powershell title="Powershell"
-   iex "& { $(irm bit.ly/ittea) } -i -f .\requiredtools.itt"
+   iex "& { $(irm bit.ly/ittea) } -i .\requiredtools.itt"
 ```
 
 Now wait for the installation to complete.
